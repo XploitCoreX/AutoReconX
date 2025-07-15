@@ -22,34 +22,39 @@ A powerful automated recon tool built by **XploitCoreX** for subdomain enumerati
 sudo apt update
 sudo apt install git python3 python3-pip nmap golang -y
 ```
+---
 
- 🧰 Step 2: Install required packages
+ ### 🧰 Step 2: Install required packages
 
 
 ```
 sudo apt install git python3 python3-pip nmap golang -y
 ```
+---
 
-🧾 Step 3: Set Go PATH
+### 🧾 Step 3: Set Go PATH
 
 ```
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc
 source ~/.bashrc
 ```
+---
 
-🔍 Step 4: Install Subfinder
+### 🔍 Step 4: Install Subfinder
 
 ```
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
+---
 
-🌐 Step 5: Install httpx
+### 🌐 Step 5: Install httpx
 
 ```
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 ```
+---
 
-📦 Step 6: Clone the tool
+### 📦 Step 6: Clone the tool
 
 ```
 git clone https://github.com/XploitCoreX/AutoReconX.git
@@ -57,14 +62,15 @@ git clone https://github.com/XploitCoreX/AutoReconX.git
 ```
 cd AutoReconX
 ```
-
-🚀 Step 7: Run the tool
+---
+### 🚀 Step 7: Run the tool
 
 ```
 python3 autoreconx.py -d example.com
 ```
+---
 
-🧪 Example:
+### 🧪 Example:
 
 ```
 python3 autoreconx.py -d google.com
