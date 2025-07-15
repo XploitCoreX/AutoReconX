@@ -27,6 +27,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 # Install httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-bash
 git clone https://github.com/XploitCoreX/AutoReconX.git
 cd AutoReconX
+python3 autoreconx.py -d example.com
+python3 autoreconx.py -d google.com
