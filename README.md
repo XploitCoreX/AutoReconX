@@ -70,4 +70,36 @@ python3 autoreconx.py -d example.com
 python3 autoreconx.py -d google.com
 ```
 
-EDUCATIONAL PURPOSE ONLY 
+
+---
+
+## 🧠 Why Use AutoReconX?
+
+✔️ Beginner friendly & terminal based  
+✔️ Fast recon with Subfinder, httpx, Nmap  
+✔️ Perfect for CTFs, Pentesters, and Bug Bounty hunters  
+✔️ Clean output files and simple usage  
+
+---
+
+## 🔧 Upcoming Features
+
+- [ ] OSINT integration (Shodan, whois)
+- [ ] Subdomain takeover checks
+- [ ] Report generation (PDF)
+- [ ] More automation modules
+
+---
+
+## 🙏 Like this tool?
+
+📌 Star this repo  
+📌 Follow [XploitCoreX](https://github.com/XploitCoreX)  
+📌 Share it with your hacker squad 💀
+
+---
+
+## 📜 License
+
+MIT License — Free to use, modify, and distribute.
+
